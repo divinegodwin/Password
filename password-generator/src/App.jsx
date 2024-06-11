@@ -100,8 +100,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-bold border-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[0]}
@@ -109,8 +109,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-bold border-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[1]}
@@ -118,8 +118,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-bol dborder-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[2]}
@@ -127,8 +127,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-bold border-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[3]}
@@ -136,8 +136,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-bold border-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[4]}
@@ -145,8 +145,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[5]}
@@ -154,8 +154,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[6]}
@@ -163,8 +163,8 @@ function App() {
         <div
           className={
             isfetched
-              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200"
-              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold"
+              ? " w-[50px] h-[50px] border-4  text-center p-2 font-boldborder-1 border-blue-200 rounded-2xl"
+              : "w-[50px] h-[50px] border-4  text-center p-2 font-bold rounded-2xl"
           }
         >
           {password[7]}
@@ -173,7 +173,7 @@ function App() {
 
       <div className="mt-[7rem] flex flex-row justify-center gap-3 ">
         <button
-          className="w-[200px] h-[50px] text-white bg-[#2d2d2d] rounded-lg"
+          className="w-[200px] h-[50px] text-white bg-[#2d2d2d] rounded-lg "
           onClick={GenerateFirst}
         >
           Generate
